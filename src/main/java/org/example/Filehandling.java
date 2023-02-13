@@ -16,8 +16,8 @@ public class Filehandling {
         StringBuilder string=new StringBuilder();
         try
         {
-           
-            File textfile = new File("C:\\Users\\Tringapps-User22\\Documents\\jav.txt");
+           String p="C:\\Users\\Tringapps-User22\\Documents\\jav.txt";
+            File textfile = new File(p);
             Scanner sc = new Scanner(textfile);
             while (sc.hasNext())
                 {
